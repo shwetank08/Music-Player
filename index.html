@@ -14,9 +14,21 @@
 
     <div id="container">
         <div class="musicplayer">
-            <img src="./Images/Interstellar.jpg" alt="Img">
+            <div class="info">
+                <img src="./Images/Interstellar.jpg" alt="Img">
+                <div class="nameandvol">
+                    <div class="name">Interstellar</div>
+                    <div class="vol"><i class="fa-solid fa-volume-high"></i><input type="range" min="1" max="100" value="50" class="slider" id="myRange"></div>
+                </div>
+            </div>
             <audio src="./Audio File/Interstellar.mp3"></audio>
-            <div class="progressbar"></div>
+            <div class="progressbar">
+                <progress min="0" max="100" value="0">
+            </div>
+            <div class="timestamp">
+                <span id="start">0:00</span>
+                <span id="end">0:30</span>
+            </div>
             <div class="controls">
                 <span class="prev"><i class="fa-solid fa-backward"></i></span>
                 <span class="backward"><i class="fa-solid fa-rotate-left"></i></span>
