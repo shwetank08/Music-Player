@@ -17,5 +17,7 @@ pause, Volume-up, volume-down, previous, next button.
 
 ## Screenshots
 
+![Image](./Images/Music_Player_1.png)
 
+![Image](./Images/Music_Player_Responsive.png)
 
