@@ -28,7 +28,7 @@ const musicLib = [
     name: "Experience",
   },
   {
-    img: "./Images/Your Lie In April.png",
+    img: "./Images/Your_Lie_In_April.webp",
     music: "./Audio File/Shigatsu Wa Kimi No Uso.mp3",
     name: "Your Lie In April OST",
   },
